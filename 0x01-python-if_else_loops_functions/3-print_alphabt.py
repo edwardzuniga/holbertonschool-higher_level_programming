@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-for alp in range(97, 123):
-    if alp == 101 or alp== 113:
+for alfabeto in range(97, 123):
+    if alfabeto == 101 or alfabeto== 113:
         continue
-    print('{:c}'.format(alp, end=""))
+    print('{:c}'.format(alfabeto), end=""))
