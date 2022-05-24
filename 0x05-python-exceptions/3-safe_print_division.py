@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 def safe_print_division(a, b):
     totality = 0
-    try:    
+    try:
         totality = a / b
         return totality
     except ZeroDivisionError:
