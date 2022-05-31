@@ -94,3 +94,7 @@ Namespaces are one honking great idea -- let's do more of those!
 ##### 12. Compile
 
 ##### 13. ByteCode -> Python #1
+
+Author
+
+#### [Eduardo Zúñiga :soccer: :computer: :chart_with_downwards_trend:](https://github.com/edwardzuniga/ "Eduardo Zúñiga") 
