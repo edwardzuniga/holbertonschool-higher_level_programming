@@ -77,4 +77,4 @@ Write a blog post describing how object and class attributes work.
 
 Author
 
-##### [Eduardo Zúñiga :soccer: :computer: :chart_with_downwards_trend:](https://github.com/edwardzuniga/ "Eduardo Zúñiga") 
+#### [Eduardo Zúñiga :soccer: :computer: :chart_with_downwards_trend:](https://github.com/edwardzuniga/ "Eduardo Zúñiga") 
