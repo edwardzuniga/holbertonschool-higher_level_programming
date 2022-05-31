@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
+
 """Text indentation"""
+
 
 def text_indentation(text):
     """

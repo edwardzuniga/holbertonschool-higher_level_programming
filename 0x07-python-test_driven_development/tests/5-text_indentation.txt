@@ -108,15 +108,6 @@ Test all delimeters with spaces:
     <BLANKLINE>
     fooo
 
-Test all delimeters with spaces at end:
-    >>> text_indentation("Hello   :     Holberton    ?    school.    fooo     ")
-    Hello:
-    <BLANKLINE>
-    Holberton?
-    <BLANKLINE>
-    school.
-    <BLANKLINE>
-    fooo
 
 Test just delimeters:
     >>> text_indentation(".?:")
