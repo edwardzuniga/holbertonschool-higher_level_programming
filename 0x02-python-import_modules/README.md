@@ -40,3 +40,7 @@ Write a program that imports the variable a from the file variable_load_5.py and
 #### 8. ByteCode -> Python #3
 
   Write the Python function def magic_calculation(a, b): that does exactly the same as the following Python bytecode:
+
+  Author
+
+#### [Eduardo Zúñiga :soccer: :computer: :chart_with_downwards_trend:](https://github.com/edwardzuniga/ "Eduardo Zúñiga") 
