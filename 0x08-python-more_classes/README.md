@@ -78,4 +78,4 @@ Write a blog post describing how object and class attributes work.
 Author
 
 ##### [Eduardo Zúñiga](https://github.com/edwardzuniga/ "Eduardo Zúñiga") 
-:tw-26bd:  :tw-1f4bb: :tw-1f4c8:
+:balloon:
