@@ -47,9 +47,4 @@ Write a function that multiplies 2 matrices by using the module NumPy
 
 ## Author
 
-#### [ Euardo Zúñiga](https://github.com/edwardzuniga " Euardo Zúñiga")
-
-
-Author
-
 #### [Eduardo Zúñiga :soccer: :computer: :chart_with_downwards_trend:](https://github.com/edwardzuniga/ "Eduardo Zúñiga") 
