@@ -1,0 +1,155 @@
+==================================
+Test for "1-my_list.py" module
+==================================
+
+The function in this module ''MyList''
+
+That prints the list, but sorted
+-------------------------------------------
+
+Import from module:
+>>> MyList = __import__('1-my_list').MyList
+
+
+list True or False:
+
+>>> my_list = MyList()
+>>> my_list.append(True)
+>>> my_list.append(False)
+>>> my_list.append(True)
+>>> my_list.append(3)
+>>> my_list.append(False)
+>>> print(my_list)
+[True, False, True, 3, False]
+>>> my_list.print_sorted()
+[False, False, True, True, 3]
+>>> print(my_list)
+[True, False, True, 3, False]
+
+
+list None:
+
+>>> my_list = MyList()
+>>> my_list.append(None)
+>>> my_list.append(7)
+>>> my_list.append(8)
+>>> my_list.append(None)
+>>> my_list.append(5)
+>>> print(my_list)
+[None, 7, 8, None, 5]
+>>> my_list.print_sorted()
+Traceback (most recent call last):
+...
+TypeError: '<' not supported between instances of 'int' and 'NoneType'
+>>> print(my_list)
+[None, 7, 8, None, 5]
+
+
+list void:
+
+>>> my_list = MyList()
+>>> print(my_list)
+[]
+>>> my_list.print_sorted()
+[]
+>>> print(my_list)
+[]
+
+
+list str and int:
+
+>>> my_list = MyList()
+>>> my_list.append("jaimelomamo")
+>>> my_list.append(3)
+>>> my_list.append("elchi")
+>>> my_list.append(2)
+>>> my_list.append("faber")
+>>> print(my_list)
+['jaimelomamo', 3, 'elchi', 2, 'faber']
+>>> my_list.print_sorted()
+Traceback (most recent call last):
+...
+TypeError: '<' not supported between instances of 'int' and 'str'
+>>> print(my_list)
+['jaimelomamo', 3, 'elchi', 2, 'faber']
+
+
+list str:
+
+>>> my_list = MyList()
+>>> my_list.append("faber")
+>>> my_list.append("elchi")
+>>> my_list.append("jaimelomamo")
+>>> my_list.append("leidy")
+>>> my_list.append("zeus")
+>>> print(my_list)
+['faber', 'elchi', 'jaimelomamo', 'leidy', 'zeus']
+>>> my_list.print_sorted()
+['faber', 'jaimelomamo', 'leidy', 'elchi', 'zeus']
+>>> print(my_list)
+['faber', 'elchi', 'jaimelomamo', 'leidy', 'zeus']
+
+
+
+list float:
+
+>>> my_list = MyList()
+>>> my_list.append(3.4)
+>>> my_list.append(7.9)
+>>> my_list.append(-2.8)
+>>> my_list.append(6.9)
+>>> my_list.append(-4.5)
+>>> print(my_list)
+[3.4, 7.9, -2.8, 6.9, -4.5]
+>>> my_list.print_sorted()
+[-4.5, -2.8, 3.4, 6.9, 7.9]
+>>> print(my_list)
+[3.4, 7.9, -2.8, 6.9, -4.5]
+
+
+list letter:
+
+>>> my_list = MyList()
+>>> my_list.append("f")
+>>> my_list.append("j")
+>>> my_list.append("n")
+>>> my_list.append("b")
+>>> my_list.append("q")
+>>> print(my_list)
+['f', 'j', 'n', 'b', 'q']
+>>> my_list.print_sorted()
+['b', 'f', 'j', 'n', 'q']
+>>> print(my_list)
+['f', 'j', 'n', 'b', 'q']
+
+
+list negatives:
+
+>>> my_list = MyList()
+>>> my_list.append(-1)
+>>> my_list.append(-4)
+>>> my_list.append(-2)
+>>> my_list.append(-3)
+>>> my_list.append(-5)
+>>> print(my_list)
+[-1, -4, -2, -3, -5]
+>>> my_list.print_sorted()
+[-5, -4, -3, -2, -1]
+>>> print(my_list)
+[-1, -4, -2, -3, -5]
+
+
+list integer:
+
+>>> my_list = MyList()
+>>> my_list.append(1)
+>>> my_list.append(4)
+>>> my_list.append(2)
+>>> my_list.append(3)
+>>> my_list.append(5)
+>>> print(my_list)
+[1, 4, 2, 3, 5]
+>>> my_list.print_sorted()
+[1, 2, 3, 4, 5]
+>>> print(my_list)
+[1, 4, 2, 3, 5]
