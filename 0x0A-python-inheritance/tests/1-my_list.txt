@@ -85,7 +85,7 @@ list str:
 >>> print(my_list)
 ['faber', 'elchi', 'jaimelomamo', 'leidy', 'zeus']
 >>> my_list.print_sorted()
-['faber', 'jaimelomamo', 'leidy', 'elchi', 'zeus']
+['elchi', 'faber', 'jaimelomamo', 'leidy', 'zeus']
 >>> print(my_list)
 ['faber', 'elchi', 'jaimelomamo', 'leidy', 'zeus']
 
