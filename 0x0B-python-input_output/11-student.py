@@ -27,5 +27,5 @@ class Student:
         '''replaces all
         attributes of the Student instance'''
         for a, b in json.items():
-            if hasattr(self, b):
+            if hasattr(self, a):
                 setattr(self, a, b)
