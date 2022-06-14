@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-
-
 """ Base class """
 
 
 class Base:
+    """Init"""
 
     __nb_objects = 0
 
