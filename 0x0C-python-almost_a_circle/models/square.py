@@ -2,8 +2,6 @@
 """And now, the Square!"""
 
 
-from ctypes import sizeof
-from logging.config import valid_ident
 from models.rectangle import Rectangle
 
 
