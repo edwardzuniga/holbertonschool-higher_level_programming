@@ -113,8 +113,7 @@ class Rectangle(Base):
                     self.y = valor
 
     def to_dictionary(self):
-        """ Public method that returns the dictionary
-        representation of a Rectangle"""
+        """Update the class Rectangle by adding the public method"""
         dic = {}
         dic['id'] = self.id
         dic['width'] = self.width

@@ -47,3 +47,12 @@ class Square (Rectangle):
                     self.x = valor
                 if clave == "y":
                     self.y = valor
+
+    def to_dictionary(self):
+        """Update the class Square by adding the public method"""
+        dic = {}
+        dic['id'] = self.id
+        dic['size'] = self.size
+        dic['x'] = self.x
+        dic['y'] = self.y
+        return dic
