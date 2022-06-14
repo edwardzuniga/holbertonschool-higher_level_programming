@@ -111,3 +111,14 @@ class Rectangle(Base):
                     self.x = valor
                 if clave == "y":
                     self.y = valor
+
+    def to_dictionary(self):
+        """ Public method that returns the dictionary
+        representation of a Rectangle"""
+        dic = {}
+        dic['id'] = self.id
+        dic['width'] = self.width
+        dic['height'] = self.height
+        dic['x'] = self.x
+        dic['y'] = self.y
+        return dic
