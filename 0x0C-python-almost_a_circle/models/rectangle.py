@@ -55,7 +55,7 @@ class Rectangle(Base):
         if type(value) is not int:
             raise TypeError("x must be an integer")
         elif value < 0:
-            raise ValueError("x must be > 0")
+            raise ValueError("x must be >= 0")
         self.__x = value
 
     @property
@@ -74,7 +74,7 @@ class Rectangle(Base):
 
     def area(self):
         """returns the area value of the Rectangle"""
-        return(self.width * self.height)
+        return(self.__width * self.__height)
 
     def display(self):
         print(("\n" * self.__y), end="")
