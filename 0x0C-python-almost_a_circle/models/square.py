@@ -25,25 +25,25 @@ class Square (Rectangle):
         return "[Square] ({:d}) {:d}/{:d} - {:d}".format(
             self.id, self.x, self.y, self.width)
 
-    def update(self, *args, **kwargs):
-        """Update the class Square by adding the public method"""
-        if len(args) is not 0:
-            if len(args) >= 1:
-                self.id = args[0]
-            if len(args) >= 2:
-                self.size = args[1]
-            if len(args) >= 3:
-                self.x = args[2]
-            if len(args) >= 4:
-                self.y = args[3]
+     def update(self, *args, **kwargs):
+        """Update the class Rectangle by adding the public method"""
+        if len(args):
+            for p, arg in enumerate(args):
+                if p == 0:
+                    self.id = arg
+                elif p == 1:
+                    self.size = arg
+                elif p == 2:
+                    self.x = arg
+                elif p == 3:
+                    self.y = arg
 
         else:
-            for clave, valor in kwargs.items():
-                if clave == "id":
-                    self.id = valor
-                if clave == "size":
-                    self.size = valor
-                if clave == "x":
-                    self.x = valor
-                if clave == "y":
-                    self.y = valor
+            if "id" in kwargs:
+                self.id = kwargs["id"]
+            if "size" in kwargs:
+                self.size = kwargs["size"]
+            if "x" in kwargs:
+                self.x = kwargs["x"]
+            if "y" in kwargs:
+                self.y = kwargs["y"]
