@@ -26,6 +26,7 @@ class Square (Rectangle):
             self.id, self.x, self.y, self.width)
 
     def update(self, *args, **kwargs):
+        """Update the class Square by adding the public method"""
         if len(args) != 0:
             if len(args) >= 1:
                 self.id = args[0]
