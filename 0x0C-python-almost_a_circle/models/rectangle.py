@@ -1,12 +1,12 @@
 #!/usr/bin/python3
-""" 2. First Rectangle """
+""" First Rectangle """
 
 
 from models.base import Base
 
 
 class Rectangle(Base):
-    """Class Rectangle"""
+    """Class Recatngle"""
 
     def __init__(self, width, height, x=0, y=0, id=None):
         """Class constructor"""
@@ -18,7 +18,7 @@ class Rectangle(Base):
 
     @property
     def width(self):
-        """init width"""
+        """Init width"""
         return self.__width
 
     @width.setter
@@ -32,7 +32,7 @@ class Rectangle(Base):
 
     @property
     def height(self):
-        """init height"""
+        """Init height"""
         return self.__height
 
     @height.setter
@@ -46,7 +46,7 @@ class Rectangle(Base):
 
     @property
     def x(self):
-        """init width"""
+        """Init X"""
         return self.__x
 
     @x.setter
@@ -60,7 +60,7 @@ class Rectangle(Base):
 
     @property
     def y(self):
-        """init height"""
+        """Init y"""
         return self.__y
 
     @y.setter
@@ -73,13 +73,13 @@ class Rectangle(Base):
         self.__y = value
 
     def area(self):
-        """returns the area value of the Rectangle"""
+        """Returns the area value of the Rectangle"""
         return(self.__width * self.__height)
 
     def display(self):
-        print(("\n" * self.__y), end="")
-        for index in range(self.__height):
-            print(" " * self.__x, "#" * self.__width)
+        '''prints method display'''
+        print("\n" * self.y +
+              (" " * self.x + "#" * self.width + "\n") * self.height, end="")
 
     def __str__(self):
         """method so that it returns [Rectangle]"""
