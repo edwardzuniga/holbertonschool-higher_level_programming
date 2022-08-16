@@ -1,3 +1,6 @@
 #!/usr/bin/node
-'use strict';
-console.log('C is fun\nPython is cool\nJavascript is amazing');
+const multiLine = (str) => {
+  return str;
+};
+const string = 'C is fun\nPython is cool\nJavaScript is amazing';
+console.log(multiLine(string));
