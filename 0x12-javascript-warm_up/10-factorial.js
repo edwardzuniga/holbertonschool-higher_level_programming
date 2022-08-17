@@ -1,13 +1,13 @@
 #!/usr/bin/node
-
-function factorialize (num) {
-    if (isNaN(num) || num <= 1) {
-      return 1;
-    } else {
-      return num * factorialize(num - 1);
-    }
+const args = process.argv;
+const num = parseInt(args[2]);
+function factorial (num) {
+  if (num === 0) {
+    return 1;
   }
-  
-  const num = parseInt(process.argv[2]);
-  
-  console.log(factorialize(num));
+  if (!num) {
+    return 1;
+  }
+  return num * factorial(num - 1);
+}
+console.log(factorial(num));
